@@ -160,7 +160,6 @@ public class SellerDaoJDBC implements SellerDao {
 
             while (rs.next()) {
 
-
                 Department dep = map.get(rs.getInt("DepartmentId"));
 
                 if (dep == null) {
